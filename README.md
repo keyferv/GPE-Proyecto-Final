@@ -1,55 +1,66 @@
-# GPE - Proyecto Final: Rediseño del Proceso de Asistencia Técnica
+# GPE — Proyecto Final: Rediseño del Proceso de Asistencia Técnica
 
-**Universidad de Guayaquil** | Facultad de Ingeniería Industrial  
-**Carrera:** Ingeniería en Sistemas de Información  
-**Asignatura:** Gestión de Procesos de Negocios  
+**Universidad de Guayaquil — Facultad de Ingeniería Industrial**
 
 ---
 
-## 📋 Descripción del Proyecto
+## ✨ Resumen
+Proyecto de reingeniería del proceso de **Gestión de Asistencia Técnica** del Hospital General Isidro Ayora, con la propuesta de pasar de un modelo reactivo y manual a uno **automatizado y predictivo** mediante la integración de agentes (OpenClaw) para soportar AITSM.
 
-Este repositorio contiene la documentación, modelos BPMN y recursos del Proyecto Final enfocado en la reingeniería del proceso de **Gestión de Asistencia Técnica del Hospital General Isidro Ayora**.
-
-El proyecto propone la transformación de un modelo de soporte reactivo y manual a uno **automatizado y predictivo** mediante la implementación de **OpenClaw**, un orquestador de agentes de Inteligencia Artificial.
-
-### 🚩 Problemática Actual (AS-IS)
-* **Alta Latencia:** Tiempo promedio de respuesta de **4h 58m** debido a procesos manuales[cite: 43].
-* **Informalidad:** El **52.14%** de los reportes se hacen de forma presencial o personal, perdiendo trazabilidad[cite: 34, 153].
-* **Cuellos de Botella:** Dependencia absoluta de un analista humano para clasificar y asignar tickets[cite: 141].
-
-### 🚀 Solución Propuesta (TO-BE)
-Implementación de un modelo **AITSM (AI for IT Service Management)** que incluye:
-* **Omnicanalidad:** Recepción automática de tickets vía WhatsApp/Telegram[cite: 198].
-* **OpenClaw:** Agente autónomo que clasifica urgencias y ejecuta scripts de solución sin intervención humana[cite: 193, 252].
-* **Resolución L1:** Capacidad de auto-reparación para incidentes de software recurrentes[cite: 197].
+## 📌 Tabla de contenido
+- [Descripción](#descripción)
+- [Problemática y solución](#problemática-y-solución)
+- [Resultados de la simulación](#resultados-de-la-simulación)
+- [Integrantes](#integrantes)
+- [Recursos](#recursos)
 
 ---
 
-## 📊 Resultados de la Simulación
-Validación realizada con un escenario de carga de **1,000 solicitudes**:
+## Descripción
+Este repositorio contiene la documentación, modelos BPMN y recursos del proyecto. La propuesta central es automatizar la recepción, clasificación y resolución L1 de incidentes, reduciendo latencias y carga manual.
 
-| Indicador | Estado Actual (AS-IS) | Propuesta (TO-BE) | Mejora |
-| :--- | :--- | :--- | :--- |
-| **Resolución Automática** | 0% | **27.1%** (271 tickets) | Automatización L1 |
-| **Carga Manual Técnico** | 100% | **25.1%** | -75% Carga Operativa |
-| **Digitalización** | 48% | **100%** | Trazabilidad Total |
-e_start]*Datos basados en el informe de simulación adjunto[cite: 315, 321, 356].*
+## Problemática y solución
+### Problemática (AS-IS)
+- **Alta Latencia:** Tiempo promedio de respuesta ~4h 58m (procesos manuales)[cite: 43].
+- **Informalidad:** 52.14% de reportes presenciales, pérdida de trazabilidad[cite: 34, 153].
+- **Cuellos de botella:** Dependencia de analista humano para asignación[cite: 141].
 
----
-
-## 👥 Integrantes (Grupo No. 1)
-
-* Alcivar Aguirre Scarlet Angeline
-* Amaguaya Satan Angel Hernan
-* Centeno Lozano Bryant Snayder
-* Lavayen González Víctor Raul
-* Rodríguez Ricardo Mike Wilson
-* Velasco Guerrero Fernando David
-* Velez Villao Ignacio Keyfer
+### Solución (TO-BE)
+- **AITSM + OpenClaw:** Orquestador de agentes para clasificación automática y ejecución de scripts.
+- **Omnicanalidad:** Recepción automática vía WhatsApp/Telegram.
+- **Resolución L1 automática:** Auto-reparación para incidentes recurrentes.
 
 ---
 
-## 📂 Recursos
+## Resultados de la simulación
+Escenario: 1,000 solicitudes.
 
-* 📄 **[Documentación Completa (PDF)]()**
-* 🔗 **[Repositorio del Proyecto]()**
+| Indicador | AS-IS | TO-BE | Mejora |
+| :--- | :---: | :---: | :--- |
+| Resolución Automática | 0% | **27.1% (271)** | Automatización L1 |
+| Carga Manual Técnico | 100% | **25.1%** | -75% carga operativa |
+| Digitalización | 48% | **100%** | Trazabilidad total |
+
+*Datos basados en el informe de simulación adjunto[cite: 315, 321, 356].*
+
+---
+
+## Integrantes (Grupo No. 1)
+
+- Alcivar Aguirre Scarlet Angeline
+- Amaguaya Satan Angel Hernan
+- Centeno Lozano Bryant Snayder
+- Lavayen González Víctor Raul
+- Rodríguez Ricardo Mike Wilson
+- Velasco Guerrero Fernando David
+- Velez Villao Ignacio Keyfer
+
+---
+
+## Recursos
+
+- 📄 Documentación: [GPE - Grupo No.1 Proyecto Final (PDF)](Document/GPE%20-%20Grupo%20No.1%20Proyecto%20Final.pdf.pdf)
+- 📊 Resultados (PDF): [Impresion.pdf](Simulacion/Impresion.pdf)
+- 📈 Hoja de cálculo (Excel): [Simulacion resultados.xlsx](Simulacion/Simulacion%20resultados.xlsx)
+- 🎥 Video de demostración: [WhatsApp Video 2026-02-10 at 3.25.01 PM.mp4](Simulacion/WhatsApp%20Video%202026-02-10%20at%203.25.01%20PM.mp4)
+- 🔗 Repositorio: https://github.com/keyferv/GPE-Proyecto-Final
