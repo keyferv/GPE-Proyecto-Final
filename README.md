@@ -41,8 +41,15 @@ Escenario: 1,000 solicitudes.
 | Carga Manual Técnico | 100% | **25.1%** | -75% carga operativa |
 | Digitalización | 48% | **100%** | Trazabilidad total |
 
-*Datos basados en el informe de simulación adjunto[cite: 315, 321, 356].*
 
+## 🛠️ Tecnologías Utilizadas
+
+La solución tecnológica propuesta (Modelo TO-BE) se fundamenta en la integración de herramientas Open Source y plataformas de mensajería para lograr la omnicanalidad y automatización:
+
+- **[OpenClaw](https://github.com/openclaw/openclaw)**: Orquestador de agentes de IA de código abierto. Es el núcleo de la propuesta, encargado de recibir los mensajes, clasificar la urgencia mediante procesamiento de lenguaje natural y ejecutar scripts de auto-reparación (L1) en los servidores locales (On-Premise).
+- **[GLPI](https://glpi-project.org/)**: Sistema de gestión de servicios de TI (ITSM) utilizado por el hospital. OpenClaw se conecta a este sistema para crear, actualizar y cerrar tickets automáticamente, manteniendo la base de conocimiento actualizada sin intervención manual.
+- **WhatsApp / Telegram**: Canales de entrada principales (ChatOps). Permiten al personal médico reportar incidentes desde sus dispositivos móviles, eliminando la necesidad de reportes presenciales o llamadas telefónicas.
+- **BPMN (Bizagi/Bonita)**: Metodología utilizada para el modelado, análisis y simulación de los procesos AS-IS y TO-BE, permitiendo identificar cuellos de botella y validar la eficiencia del nuevo flujo automatizado.
 ---
 
 ## Integrantes (Grupo No. 1)
@@ -63,4 +70,3 @@ Escenario: 1,000 solicitudes.
 - 📊 Resultados (PDF): [Impresion.pdf](Simulacion/Impresion.pdf)
 - 📈 Hoja de cálculo (Excel): [Simulacion resultados.xlsx](Simulacion/Simulacion%20resultados.xlsx)
 - 🎥 Video de demostración: [WhatsApp Video 2026-02-10 at 3.25.01 PM.mp4](Simulacion/WhatsApp%20Video%202026-02-10%20at%203.25.01%20PM.mp4)
-- 🔗 Repositorio: https://github.com/keyferv/GPE-Proyecto-Final
