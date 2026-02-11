@@ -71,3 +71,4 @@ La solución tecnológica propuesta (Modelo TO-BE) se fundamenta en la integraci
 - 📈 Hoja de cálculo (Excel): [Simulacion resultados.xlsx](Simulacion/Simulacion%20resultados.xlsx)
 - 🎥 Video de demostración: [WhatsApp Video 2026-02-10 at 3.25.01 PM.mp4](Simulacion/WhatsApp%20Video%202026-02-10%20at%203.25.01%20PM.mp4)
 - 🖥️ Diapositivas de Presentación: [Rediseño Estratégico de un Proceso de Negocio - Grupo 1.pdf](Document/Rediseño%20Estratégico%20de%20un%20Proceso%20de%20Negocio%20-%20Grupo%201.pdf)
+- 📂 Archivo del proceso (BPM): [proyecto.bpm](Simulacion/proyecto.bpm)
